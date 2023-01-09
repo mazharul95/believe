@@ -105,3 +105,31 @@ li {
 .fa-solid {
   color: #00ff00;
 }
+/* My plans */
+.plans-container {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+.plans {
+  background: #ffffff;
+  padding: 30px;
+}
+.plans-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  margin-bottom: 49.16px;
+}
+.plans-sub-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.plans-description {
+  color: #757575;
+}
+
+/* always section */
