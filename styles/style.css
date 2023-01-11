@@ -1,48 +1,42 @@
 * {
   margin: 0;
+  font-style: normal;
   font-family: sans-serif, Arial, Helvetica, sans-serif, Verdana, Tahoma,
     sans-serif;
-  font-style: normal;
 }
-.text-primary {
-  color: #444343;
-}
-.btn-primary {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 20px;
-  border: 0;
-  padding: 18px 35px;
-  height: 64px;
-  border-radius: 5px;
-  background: #fd6e0a;
+section {
+  margin-left: auto;
+  margin-right: auto;
 }
 /* banner section */
-.banner {
+.header-section {
   width: 1600px;
   height: 808px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-image: url("../images/banner/banner1.png");
 }
-.banner-title {
+.header-content h2 {
   text-align: right;
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
+  margin-top: 216px;
   margin-bottom: 24px;
   margin-left: 845px;
+  color: #151414;
 }
-.banner-description {
+.header-content p {
   width: 494px;
   height: 78px;
+  text-align: right;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   margin-left: 876px;
-  text-align: right;
   margin-bottom: 32px;
+  color: #151414;
 }
 .btn-contact {
   width: 160;
@@ -58,58 +52,128 @@
   color: #ffffff;
   background: #fd6e0a;
 }
-/* failures section */
-.row {
-  width: 580px;
-  height: 723.3px;
-  padding: 0 10%;
+
+/* failure section */
+.failure-section {
+  background-color: ffffff;
+  width: 1160px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.failures {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
-  margin-top: 5%;
-  gap: 87px;
+  margin-left: auto;
+  margin-right: auto;
+
+  gap: 40px;
 }
-.left-col {
-  flex-basis: 30%;
+.person {
 }
-.right-col {
-  flex-basis: 65%;
-  width: 428px;
-  height: 444px;
+.person img {
+  float: right;
+  width: 605.09px;
+  height: 723.3px;
+  background-image: url("../images/elipse2.png");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
-.right-col h3 {
+.content {
+  flex: start;
+  text-align: start;
+  margin: auto;
+  width: 40%;
+}
+.content h2 {
   width: 296.31px;
-  height: 104.34px;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  margin-bottom: 26px;
+  padding: 20px;
+  color: #151414;
 }
-.right-col p {
-  margin: 20px 0 70px;
+.content p {
+  margin: auto;
+  width: 428px;
+  height: 104px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 17.76px;
+  color: #444343;
+  margin-bottom: 15px;
+  padding: 0 20px;
 }
-.right-col ul,
+.content ul,
 li {
   list-style: none;
+  color: #444343;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  width: 324.09px;
-  height: 28.86px;
+  margin-top: 10px;
+  padding: 0 10px;
 }
-.fa-solid {
-  color: #00ff00;
+.checkmark {
+  color: green;
+}
+
+/* blog section */
+.blog-section {
+  background-color: #ffffff;
+  padding: 50px;
+}
+.blog-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.blog-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.blog {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 1000px;
+}
+.blog-content h1 {
+  width: 555px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #f15b22;
+}
+
+.blog-content h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #151414;
+}
+.blog p {
+  width: 500px;
+}
+.blog img {
+  height: auto;
+  width: 200px;
 }
 /* My plans */
 .plans-container {
   display: flex;
   gap: 24px;
   text-align: center;
+  padding: 35px 200px;
 }
 .plans {
   background: #ffffff;
@@ -131,5 +195,127 @@ li {
 .plans-description {
   color: #757575;
 }
+/* box section */
+.box-section {
+  margin: 20px;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/gradient3.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  border-radius: 5px;
+}
+.footer-box {
+  padding: 50px;
+}
+.footer-box h1 {
+  width: 464px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.box-btn {
+  width: 161.74px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #f15b22;
+  border: 5px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 20px auto;
+  text-align: center;
+}
 
-/* always section */
+.footer-section {
+  background-color: #151414;
+  margin-top: 80px;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 140px 120px 100px;
+}
+.footer-content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 13px;
+}
+.social {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.footer-contact {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-content h1 {
+  width: 148px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.footer-description {
+  width: 485px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-email {
+  width: 184px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-phone {
+  width: 184px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-contact h3 {
+  width: 123px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.footer-contact input {
+  width: 325px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  padding-left: 15px;
+  border-radius: 10px solid #f3f3f3;
+  background-color: #151414;
+}
+.footer-btn {
+  width: 170.11px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  border: 5px solid #f3f3f3;
+  border-radius: 10px;
+}
